@@ -1,0 +1,94 @@
+@font-face {
+  font-family: sf pro text;
+  src: url(fonts/SF-Pro-Text-Light.otf);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  height: 44px;
+  /*background-color: #1d1d1f;*/
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(2rem);
+}
+
+.navigation-links {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 5rem;
+  padding-top: 12px;
+}
+
+.links {
+  padding: 0 8px;
+}
+
+.links a {
+  text-decoration: none;
+  /* color: white;*/
+  color: #ffffff;
+  opacity: 0.8;
+  font-family: sf pro text;
+  font-size: 12px;
+}
+
+.links a:hover {
+  opacity: 1;
+}
+
+.apple-logo {
+  height: 15px;
+  width: 44px;
+}
+
+.search-icon {
+  height: 15px;
+  width: 44px;
+}
+
+.shopping-bag {
+  height: 13px;
+  width: 44px;
+}
+
+.section-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  background-image: linear-gradient(
+    rgb(245, 245, 247),
+    calc(48px),
+    rgb(255, 255, 255) 0%
+  );
+  border: 2px solid red;
+}
+
+.unicef-logo img {
+  height: 32px;
+  width: 122px;
+  margin-right: -25px;
+}
+
+.support-message {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: sf pro text;
+  align-self: center;
+}
+
+.arrow-icon {
+  height: 8px;
+  margin-left: 4px;
+  transform: rotate(-0deg);
+  color: yellow;
+}
