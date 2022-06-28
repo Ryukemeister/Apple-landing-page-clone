@@ -68,6 +68,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 0 20px;
+  margin-bottom: 0px;
   background-image: linear-gradient(
     rgb(245, 245, 247) calc(68px),
     rgb(255, 255, 255) 0%
@@ -99,25 +100,74 @@ body {
   transform: rotate(-0deg);
 }
 
-.cta-button {
-  height: 12px;
-  margin-left: 3px;
+.section-1-wrapper {
+  height: 100vh;
+  width: 98vw;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("./img/hero_mbp13__f88jcbca0ve6_largetall_2x.jpg");
+  font-family: sf pro;
+  margin-top: 0;
 }
 
-.unit-wrapper {
+.section-1-info {
+  padding-top: 50px;
+}
+
+.title {
+  color: rgb(245, 245, 247);
+  font-family: sf pro;
+  font-size: 56px;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0;
+  letter-spacing: -0.28px;
+}
+
+.macbook-13-logo {
+  background-image: url("./img/logo_hero_mbp13__gdqp6kikbxe2_largetall_2x.png");
+  background-size: 293px 68px;
+  height: 68px;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  margin-top: -3px;
+  margin-bottom: 0;
+  margin-left: 40px;
+}
+
+.call-to-action-buttons {
+  margin-top: 13.65px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.call-to-action-buttons a {
+  text-decoration: none;
+  color: rgb(0, 102, 204);
+  font-weight: 400;
+  font-size: 21px;
+  z-index: 4;
+}
+
+.section-2-wrapper {
   background-image: url("./img/hero_macbookair__el7scava26mq_largetall_2x.png");
   height: 100vh;
   width: 98vw;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  /*border: 2px solid red;*/
   font-family: sf pro;
 }
 
 .hero-content {
-  margin-left: 100px;
-  margin-top: 54px;
-  padding: 125px;
+  margin-left: -500px;
+  margin-top: 0px;
+  padding-top: 15%;
+  /*border: 2px solid red;*/
 }
 
 .unit-link {
@@ -132,7 +182,7 @@ body {
   color: rgb(29, 29, 31);
   margin-top: 10px;
   margin-bottom: 0;
-  font-size: 55px;
+  font-size: 56px;
   letter-spacing: -0.28px;
   font-weight: 600;
   text-align: center;
@@ -156,6 +206,11 @@ body {
   width: 1px;
   height: 1px;
   display: none;
+}
+
+.cta-button {
+  height: 12px;
+  margin-left: 3px;
 }
 
 .availability {
@@ -185,11 +240,4 @@ body {
 
 .cta-btns a:hover {
   text-decoration: underline;
-}
-
-.macbook-image {
-  background-image: url("./img/hero_macbookair__el7scava26mq_largetall_2x.png");
-  height: 100%;
-  width: 100%;
-  z-index: 1;
 }
