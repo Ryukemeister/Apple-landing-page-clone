@@ -209,7 +209,7 @@ body {
 }
 
 .cta-button {
-  height: 12px;
+  height: 13px;
   margin-left: 3px;
 }
 
@@ -240,4 +240,62 @@ body {
 
 .cta-btns a:hover {
   text-decoration: underline;
+}
+
+.section-3-wrapper {
+  height: 100vh;
+  width: 98vw;
+  background-image: url("./img/hero_bts__bcuslanw39xe_largetall_2x.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: sf pro;
+}
+
+.section-3-content {
+  padding-top: 44px;
+  padding-bottom: 0;
+}
+
+.section-3-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: rgb(29, 29, 31);
+  font-size: 56px;
+  font-weight: 700;
+  letter-spacing: -0.28px;
+  text-align: center;
+  font-style: italic;
+}
+
+span {
+  color: rgb(202, 33, 102);
+}
+
+.section-3-subtitle {
+  margin-bottom: 0;
+  margin-top: 6px;
+  color: rgb(29, 29, 31);
+  font-size: 28px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.footnote {
+  color: rgb(29, 29, 31);
+  text-decoration: none;
+  font-size: 16.8px;
+  font-weight: 400;
+}
+
+.call-to-action-section-3 {
+  margin-bottom: 0;
+  margin-top: 13.65px;
+  text-align: center;
+}
+
+.call-to-action-section-3 a {
+  color: rgb(0, 102, 204);
+  font-size: 21px;
+  text-decoration: none;
 }
