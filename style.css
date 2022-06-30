@@ -171,8 +171,8 @@ body {
 }
 
 .unit-link {
-  width: 100%;
-  height: 100%;
+  width: 98vw;
+  height: 100vh;
   position: absolute;
   z-index: 3;
   font-family: sf pro;
@@ -305,7 +305,7 @@ span {
   display: grid;
   grid-template-columns: 622px 622px;
   height: 1764px;
-  width: 1256px;
+  width: 1247px;
   column-gap: 12px;
   row-gap: 12px;
   position: relative;
@@ -355,7 +355,7 @@ span {
 }
 
 .grid-right-2 {
-  background-image: url("./img/promo_aml__mw753wajz8qy_large_2x.jpg");
+  background-image: url("./img/promo_iphone13pro_avail__beadms4ldidu_large_2x.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -364,4 +364,135 @@ span {
   background-image: url("./img/promo_katy_perry__eqekd92guu4i_large_2x.jpg");
   background-position: center;
   background-size: cover;
+}
+
+.grid-link-left {
+  height: 674px;
+  width: 620px;
+  position: absolute;
+  z-index: 3;
+  font-family: sf pro;
+}
+
+.grid-link-right {
+  height: 674px;
+  width: 602px;
+  position: absolute;
+  z-index: 3;
+  font-family: sf pro;
+}
+
+.grid-1-heading {
+  background-image: url("./img/promo_logo_ipadair__frwnnsqveeye_large_2x.png");
+  background-position: center;
+  background-size: 133px 37px;
+  height: 37px;
+  background-repeat: no-repeat;
+  margin-top: 62px;
+  margin-bottom: 0;
+}
+
+.grid-1-subheading {
+  color: rgb(245, 245, 247);
+  font-size: 21px;
+  font-weight: 400;
+  font-family: sf pro;
+  text-align: center;
+  margin-top: 2px;
+  letter-spacing: 0.336px;
+  margin-bottom: 0;
+}
+
+.call-to-action-grid-1,
+.call-to-action-grid-2,
+.call-to-action-grid-3,
+.call-to-action-grid-4 {
+  margin-top: 11.9px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.call-to-action-grid-1 a,
+.call-to-action-grid-2 a,
+.call-to-action-grid-3 a,
+.call-to-action-grid-4 a {
+  text-decoration: none;
+  color: rgb(0, 102, 204);
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: sf pro;
+}
+
+.buy-grid-1,
+.buy-grid-2,
+.buy-grid-3 {
+  margin-left: 25px;
+}
+
+.grid-2-heading {
+  background-image: url("./img/promo_logo_watch_lte__emrof7zzkriq_large_2x.png");
+  background-position: center;
+  background-size: 146px 56px;
+  height: 56px;
+  background-repeat: no-repeat;
+  margin-top: 58px;
+  margin-bottom: 0;
+}
+
+.grid-2-subheading {
+  color: rgb(29, 29, 31);
+  font-size: 21px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-family: sf pro;
+  text-align: center;
+}
+
+.cta-buttons {
+  margin-left: 3px;
+  height: 10px;
+}
+
+.grid-3-heading {
+  color: rgb(29, 29, 31);
+  font-family: sf pro;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 53px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.grid-3-subheading {
+  color: rgb(29, 29, 31);
+  font-family: sf pro;
+  text-align: center;
+  font-size: 21px;
+  margin-top: 4px;
+  margin-bottom: 0;
+  font-weight: 400;
+  letter-spacing: 0.336px;
+}
+
+.grid-4-heading {
+  color: rgb(29, 29, 31);
+  font-family: sf pro;
+  margin-top: 53px;
+  margin-bottom: 0;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.grid-4-subheading {
+  color: rgb(29, 29, 31);
+  font-family: sf pro;
+  margin-top: 4px;
+  margin-bottom: 0;
+  font-size: 21px;
+  font-weight: 400;
+  letter-spacing: 0.336px;
+  text-align: center;
 }
