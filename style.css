@@ -250,6 +250,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   font-family: sf pro;
+  margin-bottom: 0;
 }
 
 .section-3-content {
@@ -298,4 +299,69 @@ span {
   color: rgb(0, 102, 204);
   font-size: 21px;
   text-decoration: none;
+}
+
+.section-4-content {
+  display: grid;
+  grid-template-columns: 622px 622px;
+  height: 1764px;
+  width: 1256px;
+  column-gap: 12px;
+  row-gap: 12px;
+  position: relative;
+  left: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.grid-left {
+  height: 676px;
+  width: 622px;
+}
+
+.grid-right {
+  height: 676px;
+  width: 605px;
+}
+
+.grid-left-1 {
+  height: 100%;
+  width: 100%;
+  background-image: url("./img/promo_ipadair_avail__ferd4bfpcdm6_large_2x.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.grid-left-2 {
+  height: 100%;
+  width: 100%;
+  background-image: url("./img/promo_iphone13_avail__frc36u35m0ii_large_2x.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.grid-left-3 {
+  height: 100%;
+  width: 100%;
+  background-image: url("./img/tile__cauwwcyyn9hy_large_2x.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.grid-right-1 {
+  background-image: url("./img/promo_watch_lte__djeaso7ukrsm_large_2x.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.grid-right-2 {
+  background-image: url("./img/promo_aml__mw753wajz8qy_large_2x.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.grid-right-3 {
+  background-image: url("./img/promo_katy_perry__eqekd92guu4i_large_2x.jpg");
+  background-position: center;
+  background-size: cover;
 }
