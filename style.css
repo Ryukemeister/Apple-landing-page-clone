@@ -315,12 +315,12 @@ span {
 }
 
 .grid-left {
-  height: 676px;
+  height: 624px;
   width: 622px;
 }
 
 .grid-right {
-  height: 676px;
+  height: 624px;
   width: 605px;
 }
 
@@ -406,7 +406,8 @@ span {
 .call-to-action-grid-1,
 .call-to-action-grid-2,
 .call-to-action-grid-3,
-.call-to-action-grid-4 {
+.call-to-action-grid-4,
+.call-to-action-grid-5 {
   margin-top: 11.9px;
   margin-bottom: 0;
   text-align: center;
@@ -415,18 +416,21 @@ span {
 .call-to-action-grid-1 a,
 .call-to-action-grid-2 a,
 .call-to-action-grid-3 a,
-.call-to-action-grid-4 a {
+.call-to-action-grid-4 a,
+.call-to-action-grid-5 a {
   text-decoration: none;
   color: rgb(0, 102, 204);
   cursor: pointer;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 400;
   font-family: sf pro;
 }
 
 .buy-grid-1,
 .buy-grid-2,
-.buy-grid-3 {
+.buy-grid-3,
+.buy-grid-4,
+.try-it-free {
   margin-left: 25px;
 }
 
@@ -495,4 +499,72 @@ span {
   font-weight: 400;
   letter-spacing: 0.336px;
   text-align: center;
+}
+
+.grid-5-heading {
+  background-image: url("./img/logo__dcojfwkzna2q_large_2x.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 108px 33px;
+  height: 33px;
+  margin-top: 58px;
+  margin-bottom: 0;
+}
+
+.grid-5-subheading {
+  color: rgb(29, 29, 31);
+  font-family: sf pro;
+  margin-top: 9px;
+  margin-bottom: 0;
+  font-size: 21px;
+  font-weight: 400;
+  letter-spacing: 0.336px;
+  max-width: 290px;
+  width: 290px;
+  text-align: center;
+  margin-right: 166px;
+  margin-left: 166px;
+}
+
+.grid-6-heading {
+  background-image: url("./img/logo_promo_katy_perry__bb5nun6svbsi_large_2x.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 170px 38px;
+  height: 38px;
+  margin-top: 59px;
+  margin-bottom: 0;
+}
+
+.grid-6-subheading {
+  color: rgb(245, 245, 247);
+  font-size: 21px;
+  font-family: sf pro;
+  font-weight: 400;
+  max-width: 300px;
+  margin-top: 4px;
+  margin-right: 161px;
+  margin-left: 161px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.call-to-action-grid-6 {
+  margin-top: 11px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.call-to-action-grid-6 a {
+  text-decoration: none;
+  color: rgb(166, 255, 0);
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: sf pro;
+}
+
+.cta-buttonss {
+  margin-left: 3px;
+  height: 10.5px;
 }
