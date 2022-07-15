@@ -69,10 +69,11 @@ body {
   align-items: center;
   padding: 0 20px;
   margin-bottom: 0px;
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     rgb(245, 245, 247) calc(68px),
     rgb(255, 255, 255) 0%
-  );
+  );*/
+  background: #fbfbfd;
 }
 
 .unicef-logo img {
@@ -304,8 +305,8 @@ span {
 .section-4-content {
   display: grid;
   grid-template-columns: 622px 622px;
-  height: 1764px;
-  width: 1247px;
+  /*height: 1764px;
+  width: 1247px;*/
   column-gap: 12px;
   row-gap: 12px;
   position: relative;
@@ -367,7 +368,7 @@ span {
 }
 
 .grid-link-left {
-  height: 674px;
+  height: 620px;
   width: 620px;
   position: absolute;
   z-index: 3;
@@ -375,7 +376,7 @@ span {
 }
 
 .grid-link-right {
-  height: 674px;
+  height: 620px;
   width: 602px;
   position: absolute;
   z-index: 3;
@@ -567,4 +568,40 @@ span {
 .cta-buttonss {
   margin-left: 3px;
   height: 10.5px;
+}
+
+.site-end {
+  background-color: #f5f5f7;
+}
+
+.footer-content {
+  margin: 0 128px;
+  padding: 0 22px;
+}
+
+.terms-and-conditions {
+  padding: 17px 0 11px 0;
+  border-bottom-color: rgb(210, 210, 215);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.rules {
+  list-style: none;
+  color: rgb(110, 110, 115);
+  font-size: 12px;
+  font-family: sf pro text;
+  line-height: 16.004px;
+  text-align: left;
+  -webkit-font-smoothing: antialiased;
+
+  padding-bottom: 9.6px;
+}
+
+.goldman-agreement,
+.more-info {
+  color: rgb(66, 66, 69);
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
 }
