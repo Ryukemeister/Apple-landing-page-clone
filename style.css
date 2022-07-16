@@ -107,7 +107,7 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("./img/hero_mbp13__f88jcbca0ve6_largetall_2x.jpg");
+  background-image: url("./img/hero_watch_lte__b8er858e34gi_largetall_2x.jpg");
   font-family: sf pro;
   margin-top: 0;
 }
@@ -117,18 +117,25 @@ body {
 }
 
 .title {
-  color: rgb(245, 245, 247);
+  /*color: rgb(245, 245, 247);
   font-family: sf pro;
   font-size: 56px;
   text-align: center;
   font-weight: 600;
-  margin-top: 0;
   margin-bottom: 0;
-  letter-spacing: -0.28px;
+  letter-spacing: -0.28px;*/
+  background-image: url("./img/hero_logo_watch_lte__fy5faj6xg7m2_largetall_2x.png");
+  background-size: 188px 72px;
+  height: 72px;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  margin-top: 9px;
+  margin-bottom: 0;
 }
 
 .macbook-13-logo {
-  background-image: url("./img/logo_hero_mbp13__gdqp6kikbxe2_largetall_2x.png");
+  /* background-image: url("./img/logo_hero_mbp13__gdqp6kikbxe2_largetall_2x.png");
   background-size: 293px 68px;
   height: 68px;
   background-position-x: 50%;
@@ -136,7 +143,16 @@ body {
   background-repeat: no-repeat;
   margin-top: -3px;
   margin-bottom: 0;
-  margin-left: 40px;
+  margin-left: 40px;*/
+  color: rgb(29, 29, 31);
+  font-size: 28px;
+  font-family: sf pro;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.112px;
+  margin-top: 15px;
+  margin-bottom: 0;
+  -webkit-font-smoothing: antialiased;
 }
 
 .call-to-action-buttons {
