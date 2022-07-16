@@ -73,7 +73,7 @@ body {
     rgb(245, 245, 247) calc(68px),
     rgb(255, 255, 255) 0%
   );*/
-  background: #fbfbfd;
+  background-color: rgb(245, 245, 247);
 }
 
 .unicef-logo img {
@@ -322,7 +322,7 @@ span {
 
 .grid-right {
   height: 624px;
-  width: 605px;
+  /*width: 605px;*/
 }
 
 .grid-left-1 {
@@ -350,7 +350,7 @@ span {
 }
 
 .grid-right-1 {
-  background-image: url("./img/promo_watch_lte__djeaso7ukrsm_large_2x.jpg");
+  background-image: url("./img/promo_mbp13__buwssod6c8vm_medium_2x.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -414,6 +414,10 @@ span {
   text-align: center;
 }
 
+.call-to-action-mackbook-pro-13 {
+  margin-top: 0;
+}
+
 .call-to-action-grid-1 a,
 .call-to-action-grid-2 a,
 .call-to-action-grid-3 a,
@@ -436,22 +440,25 @@ span {
 }
 
 .grid-2-heading {
-  background-image: url("./img/promo_logo_watch_lte__emrof7zzkriq_large_2x.png");
-  background-position: center;
-  background-size: 146px 56px;
-  height: 56px;
-  background-repeat: no-repeat;
-  margin-top: 58px;
+  color: rgb(245, 245, 247);
+  text-align: center;
+  font-size: 40px;
+  font-family: sf pro;
+  font-weight: 600;
+  letter-spacing: 0.064px;
+  margin-top: 53px;
   margin-bottom: 0;
+  -webkit-font-smoothing: antialiased;
 }
 
 .grid-2-subheading {
-  color: rgb(29, 29, 31);
-  font-size: 21px;
-  font-weight: 400;
-  margin-top: 10px;
+  background-image: url("./img/logo_promo_mbp13__gnmug5nsag66_medium_2x.png");
+  background-position: center;
+  background-size: 223px 51px;
+  height: 51px;
+  background-repeat: no-repeat;
+  margin-top: -7px;
   margin-bottom: 0;
-  font-family: sf pro;
   text-align: center;
 }
 
@@ -568,6 +575,600 @@ span {
 .cta-buttonss {
   margin-left: 3px;
   height: 10.5px;
+}
+
+.section-5-content {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  width: 1280px;
+  height: 520px;
+  /* height: 561.125px;
+  border: 2px solid red;
+  */
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.slidessss {
+  position: absolute;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  /* width: 980px;
+  height: 523.125px;*/
+  width: 980px;
+  height: 523.125px;
+  margin: 0;
+}
+
+.slide-minus-three-3 {
+  background-image: url("./img/Morning\ show.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(-303%);
+  filter: opacity(0.3);
+}
+
+.slide-minus-two-3 {
+  background-image: url("./img/Physical.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(-202%);
+  filter: opacity(0.3);
+}
+
+.slide-1-3 {
+  background-image: url("./img/Snoopy\ show.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(-101%);
+  filter: opacity(0.3);
+}
+
+.slide-2-3 {
+  background-image: url("./img/For\ all\ mankind.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(0%);
+}
+
+.slide-3-3 {
+  background-image: url("./img/Loot.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(101%);
+  filter: opacity(0.3);
+}
+
+.slide-4-3 {
+  background-image: url("./img/Prehistoric\ planet.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(202%);
+  filter: opacity(0.3);
+}
+
+.slide-5-3 {
+  background-image: url("./img/Ted\ Lasso.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(303%);
+  filter: opacity(0.3);
+}
+
+.slide-6-3 {
+  background-image: url("./img/Baseball.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(404%);
+  filter: opacity(0.3);
+}
+
+.slide-7-3 {
+  background-image: url("./img/Severance.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(505%);
+  filter: opacity(0.3);
+}
+
+.slide-8-3 {
+  background-image: url("./img/Chacha.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(606%);
+  filter: opacity(0.3);
+}
+
+.slide-9-3 {
+  background-image: url("./img/See\ -\ The\ final\ chapter.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(707%);
+  filter: opacity(0.3);
+}
+
+.slide-10-3 {
+  background-image: url("./img/Morning\ show.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(808%);
+  filter: opacity(0.3);
+}
+
+.slide-11-3 {
+  background-image: url("./img/Physical.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(909%);
+  filter: opacity(0.3);
+}
+
+.slide-12-3 {
+  background-image: url("./img/Snoopy\ show.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(1010%);
+  filter: opacity(0.3);
+}
+
+.slide-13-3 {
+  background-image: url("./img/For\ all\ mankind.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(1111%);
+  filter: opacity(0.3);
+}
+
+.slide-14-3 {
+  background-image: url("./img/Loot.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(1212%);
+}
+
+.slide-15-3 {
+  background-image: url("./img/Prehistoric\ planet.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(1313%);
+  filter: opacity(0.3);
+}
+
+.slide-16-3 {
+  background-image: url("./img/Ted\ Lasso.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(1414%);
+  filter: opacity(0.3);
+}
+
+.slide-17-3 {
+  background-image: url("./img/Baseball.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(1515%);
+  filter: opacity(0.3);
+}
+
+.slide-18-3 {
+  background-image: url("./img/Severance.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(1616%);
+  filter: opacity(0.3);
+}
+
+.slide-19-3 {
+  background-image: url("./img/Chacha.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(1717%);
+  filter: opacity(0.3);
+}
+
+.slide-20-3 {
+  background-image: url("./img/See\ -\ The\ final\ chapter.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(1818%);
+  filter: opacity(0.3);
+}
+
+.slide-21-3 {
+  background-image: url("./img/Morning\ show.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(1919%);
+  filter: opacity(0.3);
+}
+
+.slide-22-3 {
+  background-image: url("./img/Physical.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(2020%);
+  filter: opacity(0.3);
+}
+
+.slide-23-3 {
+  background-image: url("./img/Snoopy\ show.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(2121%);
+  filter: opacity(0.3);
+}
+
+.slide-24-3 {
+  background-image: url("./img/For\ all\ mankind.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(2222%);
+  filter: opacity(0.3);
+}
+
+.slide-25-3 {
+  background-image: url("./img/Loot.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(2323%);
+  filter: opacity(0.3);
+}
+
+.slide-26-3 {
+  background-image: url("./img/Prehistoric\ planet.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(2424%);
+  filter: opacity(0.3);
+}
+
+.slide-27-3 {
+  background-image: url("./img/Ted\ Lasso.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(2525%);
+  filter: opacity(0.3);
+}
+
+.slide-28-3 {
+  background-image: url("./img/Baseball.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(2626%);
+  filter: opacity(0.3);
+}
+
+.slide-29-3 {
+  background-image: url("./img/Severance.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(2727%);
+  filter: opacity(0.3);
+}
+
+.slide-30-3 {
+  background-image: url("./img/Chacha.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(2828%);
+  filter: opacity(0.3);
+}
+
+.slide-31-3 {
+  background-image: url("./img/See\ -\ The\ final\ chapter.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(2929%);
+  filter: opacity(0.3);
+}
+
+.slide-32-3 {
+  background-image: url("./img/Morning\ show.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(3030%);
+  filter: opacity(0.3);
+}
+
+.slide-33-3 {
+  background-image: url("./img/Physical.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(3131%);
+  filter: opacity(0.3);
+}
+
+.slide-34-3 {
+  background-image: url("./img/Snoopy\ show.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(3232%);
+  filter: opacity(0.3);
+}
+
+.slide-35-3 {
+  background-image: url("./img/For\ all\ mankind.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(3333%);
+  filter: opacity(0.3);
+}
+
+.slide-36-3 {
+  background-image: url("./img/Loot.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(3434%);
+  filter: opacity(0.3);
+}
+
+.slide-37-3 {
+  background-image: url("./img/Prehistoric\ planet.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(3535%);
+  filter: opacity(0.3);
+}
+
+.slide-38-3 {
+  background-image: url("./img/Ted\ Lasso.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(3636%);
+  filter: opacity(0.3);
+}
+
+.slide-39-3 {
+  background-image: url("./img/Baseball.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(3737%);
+  filter: opacity(0.3);
+}
+
+.slide-40-3 {
+  background-image: url("./img/Severance.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(3838%);
+  filter: opacity(0.3);
+}
+
+.slide-41-3 {
+  background-image: url("./img/Chacha.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(3939%);
+  filter: opacity(0.3);
+}
+
+.slide-42-3 {
+  background-image: url("./img/See\ -\ The\ final\ chapter.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(4040%);
+  filter: opacity(0.3);
+}
+
+.slide-43-3 {
+  background-image: url("./img/Morning\ show.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(4141%);
+  filter: opacity(0.3);
+}
+
+.slide-44-3 {
+  background-image: url("./img/Physical.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(4242%);
+  filter: opacity(0.3);
+}
+
+.slide-45-3 {
+  background-image: url("./img/Snoopy\ show.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(4343%);
+  filter: opacity(0.3);
+}
+
+.slide-46-3 {
+  background-image: url("./img/For\ all\ mankind.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(4444%);
+  filter: opacity(0.3);
+}
+
+.slide-47-3 {
+  background-image: url("./img/Loot.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(4545%);
+  filter: opacity(0.3);
+}
+
+.slide-48-3 {
+  background-image: url("./img/Prehistoric\ planet.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(4646%);
+  filter: opacity(0.3);
+}
+
+.slide-49-3 {
+  background-image: url("./img/Ted\ Lasso.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(4747%);
+  filter: opacity(0.3);
+}
+
+.slide-50-3 {
+  background-image: url("./img/Baseball.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(4848%);
+  filter: opacity(0.3);
+}
+
+.slide-51-3 {
+  background-image: url("./img/Severance.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(4949%);
+  filter: opacity(0.3);
+}
+
+.slide-52-3 {
+  background-image: url("./img/Chacha.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(5050%);
+  filter: opacity(0.3);
+}
+
+.slide-53-3 {
+  background-image: url("./img/See\ -\ The\ final\ chapter.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(5151%);
+  filter: opacity(0.3);
+}
+
+.slide-54-3 {
+  background-image: url("./img/Morning\ show.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(5252%);
+  filter: opacity(0.3);
+}
+
+.slide-55-3 {
+  background-image: url("./img/Physical.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(5353%);
+  filter: opacity(0.3);
+}
+
+.slide-56-3 {
+  background-image: url("./img/Snoopy\ show.jpg");
+  background-position: center;
+  background-size: cover;
+  transform: translateX(5454%);
+  filter: opacity(0.3);
+}
+
+.first-info-bottom {
+  display: flex;
+  width: 737px;
+  height: 44px;
+  margin: 0 0 35px 68px;
+}
+
+.info-bottom {
+  display: flex;
+  width: 737px;
+  height: 44px;
+  filter: opacity(0);
+  margin: 0 0 0 68px;
+}
+
+.play-button-container {
+  display: flex;
+  width: 102.177px;
+  height: 20px;
+  border-radius: 500px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(29, 29, 31);
+  padding: 12px 22px;
+  justify-content: center;
+  align-items: center;
+  -webkit-font-smoothing: antialiased;
+}
+
+.message {
+  font-family: sf pro;
+  font-size: 14px;
+  color: #1d1d1f;
+  font-weight: 700;
+  filter: contrast(16.36);
+  letter-spacing: 0.333px;
+}
+
+.stream-now-icon {
+  background-image: url("./img/Play\ button\ icon.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 14px;
+  height: 14px;
+  margin-left: 4.2px;
+}
+
+.typography-shows-genre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: sf pro;
+  font-weight: 400;
+}
+
+.genre {
+  color: rgb(255, 255, 255);
+  font-family: sf pro;
+  font-size: 20px;
+  font-weight: 700;
+  text-shadow: rgba(0, 0, 0, 0.6) 0px 0px 5px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.m-dot {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 700;
+  text-shadow: rgba(0, 0, 0, 0.6) 0px 0px 5px;
+  -webkit-font-smoothing: antialiased;
+  margin-right: 4px;
+  margin-left: 5px;
+}
+
+.tabs-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-items {
+  /*border: 2px solid red;*/
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.nav-item {
+  /* background-color: rgba(0, 0, 0, 0.56);*/
+  background-color: rgba(0, 0, 0, 0.16);
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  margin: 0 7px;
+  cursor: pointer;
+}
+
+.nav--active {
+  background-color: rgba(0, 0, 0, 0.56);
+  /*border: 1px solid red;*/
 }
 
 .site-end {
