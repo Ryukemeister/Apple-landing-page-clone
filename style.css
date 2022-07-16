@@ -579,8 +579,14 @@ span {
   padding: 0 22px;
 }
 
+.tees-and-cees {
+  padding: 0;
+  margin: 0;
+}
+
 .terms-and-conditions {
-  padding: 17px 0 11px 0;
+  padding: 17px 0 23px 0;
+  margin: 0;
   border-bottom-color: rgb(210, 210, 215);
   border-bottom-style: solid;
   border-bottom-width: 1px;
@@ -594,14 +600,170 @@ span {
   line-height: 16.004px;
   text-align: left;
   -webkit-font-smoothing: antialiased;
-
   padding-bottom: 9.6px;
 }
 
+.rules-bottom {
+  padding-bottom: 0;
+}
+
 .goldman-agreement,
-.more-info {
+.more-info,
+.support {
   color: rgb(66, 66, 69);
   cursor: pointer;
   text-decoration: none;
   -webkit-font-smoothing: antialiased;
+}
+
+.goldman-agreement:hover,
+.more-info:hover,
+.support:hover {
+  text-decoration: underline;
+}
+
+.footer-navigation {
+  margin: 0;
+  padding: 9px 0 0 0;
+}
+
+.footer-navigation {
+  display: flex;
+  padding-top: 20px;
+}
+
+.directory-column {
+  /*height: 414.312px;*/
+  width: 196px;
+  margin: 0;
+  padding: 0;
+  color: rgb(110, 110, 115);
+  text-align: left;
+  font-size: 12px;
+  font-family: sf pro text;
+  line-height: 16.004px;
+  -webkit-font-smoothing: antialiased;
+  /*border: 2px solid red;*/
+}
+
+.section-list {
+  margin: 0;
+  padding: 0;
+}
+
+.content-list-title {
+  color: rgb(29, 29, 31);
+  filter: contrast(15.54);
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+  font-family: sf pro text;
+  font-weight: 600;
+  margin-bottom: 9.6px;
+}
+
+.lists {
+  list-style: none;
+  margin-bottom: 9.6px;
+}
+
+.lists a {
+  text-decoration: none;
+  color: #424245;
+  font-size: 12px;
+  text-align: left;
+  -webkit-font-smoothing: antialiased;
+}
+
+.list-two {
+  padding-top: 14.4px;
+}
+
+.lists a:hover {
+  text-decoration: underline;
+}
+
+.nav-last-part {
+  margin: 0;
+  padding: 34px 0 21px 0;
+}
+
+.apple-near-you {
+  margin: 0 0 8px 0;
+  padding: 0 0 8px 0;
+  border-bottom-color: rgb(210, 210, 215);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  font-size: 12px;
+  text-align: left;
+  font-family: sf pro text;
+  color: rgb(110, 110, 115);
+  -webkit-font-smoothing: antialiased;
+}
+
+.find-store-links {
+  text-decoration: none;
+  color: rgb(0, 102, 204);
+  font-size: 12px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.find-store-links:hover {
+  text-decoration: underline;
+  filter: contrast(5.11);
+}
+
+.copyright-detials {
+  display: flex;
+}
+
+.copyright-statement {
+  margin: 8px 30px 0 0;
+  padding: 0;
+  font-size: 12px;
+  color: rgb(110, 110, 115);
+  font-family: sf pro text;
+  -webkit-font-smoothing: antialiased;
+}
+
+.more-navigation {
+  margin: 5px 30px 0 0;
+  padding: 0;
+}
+
+.terms-and-rules {
+  text-decoration: none;
+  font-size: 12px;
+  color: #424245;
+  font-family: sf pro text;
+  -webkit-font-smoothing: antialiased;
+}
+
+.terms-and-rules:hover {
+  text-decoration: underline;
+}
+
+.terms-border {
+  padding: 0 10px 0 0;
+  margin: 0 7px 0 0;
+  border-right-color: rgb(210, 210, 215);
+  border-right-style: solid;
+  border-right-width: 1px;
+}
+
+.united-states {
+  margin: 5px 0px 0px 155px;
+}
+
+.united-states a {
+  text-decoration: none;
+  color: rgb(66, 66, 69);
+  font-size: 12px;
+  color: #424245;
+  font-family: sf pro text;
+  -webkit-font-smoothing: antialiased;
+}
+
+.united-states a:hover {
+  text-decoration: underline;
 }
