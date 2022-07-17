@@ -15,10 +15,15 @@ body {
 }
 
 .nav {
+  width: 98vw;
   height: 44px;
   /*background-color: #1d1d1f;*/
   background-color: rgba(0, 0, 0, 0.8);
-  backdrop-filter: blur(2rem);
+  backdrop-filter: saturate(1.8) blur(20px);
+  display: block;
+  z-index: 9999;
+  -webkit-font-smoothing: antialiased;
+  position: fixed;
 }
 
 .navigation-links {
@@ -67,12 +72,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 20px;
+  padding: 44px 20px 0 20px;
   margin-bottom: 0px;
-  /* background-image: linear-gradient(
-    rgb(245, 245, 247) calc(68px),
-    rgb(255, 255, 255) 0%
-  );*/
   background-color: rgb(245, 245, 247);
 }
 
