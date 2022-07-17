@@ -360,7 +360,7 @@ span {
 .grid-left-3 {
   height: 100%;
   width: 100%;
-  background-image: url("./img/tile__cauwwcyyn9hy_large_2x.jpg");
+  background-image: url("./img/tile__cauwwcyyn9hy_large_2x\ \(12\).jpg");
   background-position: center;
   background-size: cover;
 }
@@ -378,9 +378,19 @@ span {
 }
 
 .grid-right-3 {
-  background-image: url("./img/promo_katy_perry__eqekd92guu4i_large_2x.jpg");
+  background-color: #000;
+}
+
+.airpods-background {
+  background-image: url("./img/tile__cauwwcyyn9hy_large_2x.jpg");
   background-position: center;
   background-size: cover;
+  background-size: 301px 384px;
+  height: 384px;
+  background-repeat: no-repeat;
+  /*border: 1px solid red;*/
+  margin: auto;
+  margin-top: 65px;
 }
 
 .grid-link-left {
@@ -551,13 +561,14 @@ span {
 }
 
 .grid-6-heading {
-  background-image: url("./img/logo_promo_katy_perry__bb5nun6svbsi_large_2x.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 170px 38px;
-  height: 38px;
-  margin-top: 59px;
+  color: rgb(245, 245, 247);
+  font-size: 40px;
+  text-align: center;
+  font-family: sf pro;
+  font-weight: 600;
+  margin-top: 60px;
   margin-bottom: 0;
+  -webkit-font-smoothing: antialiased;
 }
 
 .grid-6-subheading {
@@ -565,23 +576,22 @@ span {
   font-size: 21px;
   font-family: sf pro;
   font-weight: 400;
-  max-width: 300px;
   margin-top: 4px;
-  margin-right: 161px;
-  margin-left: 161px;
   margin-bottom: 0;
+  letter-spacing: 0.336px;
   text-align: center;
+  -webkit-font-smoothing: antialiased;
 }
 
 .call-to-action-grid-6 {
-  margin-top: 11px;
+  margin-top: 11.9px;
   margin-bottom: 0;
   text-align: center;
 }
 
 .call-to-action-grid-6 a {
   text-decoration: none;
-  color: rgb(166, 255, 0);
+  color: rgb(0, 102, 204);
   cursor: pointer;
   font-size: 18px;
   font-weight: 400;
