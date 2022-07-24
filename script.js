@@ -2,6 +2,22 @@
 
 const navItems = document.querySelectorAll(".nav-item");
 const sliderOne = document.querySelector(".nav--1");
+const sectionFive = document.querySelector(".section-5");
+
+const options = {
+  threshold: 0,
+};
+
+const startSliderAnimation = function (entry) {
+  if (entry[0].isIntersecting) {
+    setInterval(switchSlides, 4000);
+    setInterval(slides, 4000);
+    observer.unobserve(entry);
+  }
+};
+
+const observer = new IntersectionObserver(startSliderAnimation, options);
+observer.observe(sectionFive);
 
 let count = 2;
 
@@ -25,8 +41,6 @@ const switchSlides = function () {
     count = 2;
   }
 };
-
-// setInterval(switchSlides, 1000);
 
 const slider = document.querySelectorAll(".slidessss");
 
@@ -58,6 +72,3 @@ const slides = function () {
     }
   });
 };
-
-// setInterval(switchSlides, 4000);
-// setInterval(slides, 4000);
