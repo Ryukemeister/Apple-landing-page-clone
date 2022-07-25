@@ -1404,7 +1404,7 @@ span {
     background-size: 734px 548px;
     height: 548px;
     width: 100vw;
-    border: 2px solid red;
+    border: none;
     background-image: url("./img/hero_macbookair__el7scava26mq_small_2x.png");
     /*border: 1px solid red;*/
   }
@@ -1417,8 +1417,14 @@ span {
     background-size: 734px 548px;
     height: 548px;
     width: 100vw;
-    border: 2px solid red;
+    border: 1px solid red;
+    border: none;
     background-image: url("./img/hero_iphone13_avail__gnqqkzuai6um_small_2x.jpg");
+  }
+
+  .title {
+    margin: 0;
+    padding-top: 44px;
   }
 
   .unit-link {
@@ -1430,23 +1436,17 @@ span {
     background-size: 734px 548px;
     height: 548px;
     width: 100vw;
-    border: 2px solid red;
     background-image: url("./img/hero_bts__bcuslanw39xe_small_2x.jpg");
   }
 
   .section-4-content {
     display: grid;
-    grid-template-columns: 370.33px;
-    /*height: 1764px;
-    width: 1247px;
-    grid-template-columns: 375.33px;*/
+    grid-template-columns: 375.33px;
     column-gap: 0px;
     row-gap: 0px;
     position: relative;
     left: 0px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-right: 0;
+    padding: 0 0 12px 0;
   }
 
   .grid-left,
@@ -1457,7 +1457,8 @@ span {
        width: 375.33px;
         border: 1px solid red;
     */
-    width: 350.33px;
+    width: 100vw;
+    height: 548px;
   }
 
   .section-5-content {
@@ -1467,21 +1468,14 @@ span {
     overflow: hidden;
     justify-content: center;
     align-items: center;
-    width: 355px;
+    width: 100vw;
     height: 520px;
-    /* height: 561.125px;
-    border: 2px solid red;
-        width: 390px;
-    */
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin: 0;
   }
 
   .grid-5-subheading {
     color: rgb(29, 29, 31);
     font-family: sf pro;
-    margin-top: 9px;
-    margin-bottom: 0;
     font-size: 21px;
     font-weight: 400;
     letter-spacing: 0.336px;
@@ -1495,6 +1489,34 @@ span {
     width: 274px;
     height: 495px;
     margin: 0;
+  }
+
+  .grid-left-1 {
+    background-image: url("./img/promo_ipadair_avail__ferd4bfpcdm6_small_2x.jpg");
+  }
+
+  .grid-left-2 {
+    background-image: url("./img/promo_watch_lte__djeaso7ukrsm_small_2x.jpg");
+  }
+
+  .grid-left-3 {
+    background-image: url("./img/tile__cauwwcyyn9hy_small_2x.jpg");
+  }
+
+  .grid-right-1 {
+    background-image: url("./img/promo_mbp13__buwssod6c8vm_small_2x.jpg");
+  }
+
+  .grid-right-2 {
+    background-image: url("./img/promo_iphone13pro_avail__beadms4ldidu_small_2x.jpg");
+  }
+
+  .airpods-background {
+    background-image: url("./img/tile__cauwwcyyn9hy_small_2x\ \(1\).jpg");
+    background-size: 258px 333px;
+    height: 333px;
+    margin: 0;
+    margin-top: 43px;
   }
 
   .footer-navigation {
