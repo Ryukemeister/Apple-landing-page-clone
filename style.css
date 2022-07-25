@@ -1391,7 +1391,7 @@ span {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 481px) {
   .nav {
     width: 100vw;
   }
