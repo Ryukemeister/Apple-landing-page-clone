@@ -389,19 +389,16 @@ span {
 }
 
 .grid-right-3 {
-  background-color: #000;
+  background-image: url("./img/promo_maryj__e6jdmpy1riye_large_2x.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 .airpods-background {
-  background-image: url("./img/tile__cauwwcyyn9hy_large_2x.jpg");
-  background-position: center;
-  background-size: cover;
-  background-size: 301px 384px;
-  height: 384px;
-  background-repeat: no-repeat;
-  /*border: 1px solid red;*/
-  margin: auto;
-  margin-top: 65px;
+  display: none;
+}
+
+.grid-right-3 {
 }
 
 .grid-link-left {
@@ -1687,6 +1684,18 @@ span {
     margin: 13.94px 0 0 0;
   }
 
+  .airpods-background {
+    display: none;
+  }
+
+  .grid-right-3 {
+    background-image: url("./img/promo_maryj__e6jdmpy1riye_small_2x.jpg");
+    background-size: 734px 548px;
+    height: 500px;
+    width: 100vw;
+    margin: 0;
+  }
+
   .slidessss {
     width: 274px;
     height: 495px;
@@ -1712,14 +1721,6 @@ span {
   .grid-right-2 {
     background-image: url("./img/promo_iphone13pro_avail__beadms4ldidu_small_2x.jpg");
     margin: 0 0 11px 0;
-  }
-
-  .airpods-background {
-    background-image: url("./img/tile__cauwwcyyn9hy_small_2x\ \(1\).jpg");
-    background-size: 258px 333px;
-    height: 333px;
-    margin: 0;
-    margin-top: -5px;
   }
 
   .footer-navigation {
