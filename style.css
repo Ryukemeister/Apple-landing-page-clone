@@ -32,12 +32,17 @@ body {
   list-style-type: none;
   align-items: center;
   justify-content: space-between;
-  margin: 0 5rem;
+  margin: 0 5rem 0 1rem;
   padding-top: 12px;
 }
 
 .links {
   padding: 0 8px;
+}
+
+.linkss {
+  padding: 0;
+  margin: 0;
 }
 
 .links a {
@@ -51,6 +56,12 @@ body {
 
 .links a:hover {
   opacity: 1;
+}
+
+.menu-logo {
+  display: none;
+  width: 1px;
+  height: 1px;
 }
 
 .apple-logo {
@@ -77,10 +88,14 @@ body {
   background-color: rgb(245, 245, 247);
 }
 
-.unicef-logo img {
+.unicef-logo {
+  background-image: url("./img/unicef_logo_dark__ejvlglygb3ee_large_2x.png");
+  background-size: 122px 32px;
   height: 32px;
   width: 122px;
-  margin-right: -25px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 14px;
 }
 
 .support-message {
@@ -1394,10 +1409,63 @@ span {
 @media screen and (max-width: 481px) {
   .nav {
     width: 100vw;
+    height: 48px;
   }
 
   .navigation-links {
+    margin: 0;
+    padding-top: 0px;
+    padding-left: 16px;
+    padding-right: 10px;
+    height: 44px;
+    /*border: 2px solid red;*/
+  }
+
+  .links,
+  .linkss {
     display: none;
+  }
+
+  .mobile-visible {
+    display: block;
+  }
+
+  .apple-logo {
+    height: 20px;
+    width: 20px;
+    padding-top: 7px;
+  }
+
+  .shopping-bag {
+    height: 17px;
+    width: 17px;
+    padding-top: 7px;
+  }
+
+  .menu-logo {
+    width: 20px;
+    height: 18px;
+    display: block;
+  }
+
+  .section-content {
+    flex-direction: column;
+    padding: 63px 0 15px 0;
+    margin: 0;
+  }
+
+  .unicef-logo {
+    background-image: url("./img/unicef_logo_dark__ejvlglygb3ee_small_2x.png");
+    background-size: 106px 28px;
+    height: 28px;
+    margin: 0;
+  }
+
+  .support-message {
+    font-size: 14px;
+    text-align: center;
+    margin: 4px 0 0 0;
+    max-width: 215px;
   }
 
   .section-2-wrapper {
