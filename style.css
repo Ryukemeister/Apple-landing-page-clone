@@ -1607,16 +1607,84 @@ span {
     margin: 0;
   }
 
+  .grid-1-heading {
+    background-image: url("./img/promo_logo_ipadair__frwnnsqveeye_small_2x.png");
+    background-size: 112px 30px;
+    height: 30px;
+    margin: 43px 0 0 0;
+  }
+
+  .grid-1-subheading {
+    font-size: 19px;
+    letter-spacing: 0.228px;
+    margin: 5px 0 0 0;
+  }
+
+  .call-to-action-grid-1 {
+    margin: 13.94px 0 0 0;
+  }
+
+  .grid-2-heading {
+    font-size: 32px;
+    margin: 37px 0 0 0;
+    letter-spacing: 0.064px;
+  }
+
+  .grid-2-subheading {
+    background-image: url("./img/logo_promo_mbp13__gnmug5nsag66_small_2x.png");
+    background-size: 207px 48px;
+    height: 48px;
+    margin: -5px 0 0 0;
+  }
+
+  .call-to-action-grid-2 {
+    margin: 1px 0 0 0;
+  }
+
+  .grid-3-heading {
+    font-size: 32px;
+    margin: 65px 0 0 0;
+    letter-spacing: 0.064px;
+  }
+
+  .grid-3-subheading {
+    font-size: 19px;
+    margin: 4px 0 0 0;
+    letter-spacing: 0.228px;
+  }
+
+  .call-to-action-grid-4 {
+    margin: 13.94px 0 0 0;
+  }
+
+  .grid-4-heading {
+    background-image: url("./img/promo_logo_watch_lte__emrof7zzkriq_small_2x.png");
+    background-size: 122px 47px;
+    height: 47px;
+    margin: 49px 0 0 0;
+  }
+
+  .grid-4-subheading {
+    margin: 7px 0 0 0;
+    font-size: 19px;
+    letter-spacing: 0.228px;
+  }
+
+  .grid-5-heading {
+    background-image: url("./img/logo__dcojfwkzna2q_small_2x.png");
+    background-size: 88px 27px;
+    height: 27px;
+    margin: 45px 0 0 0;
+  }
+
   .grid-5-subheading {
-    color: rgb(29, 29, 31);
-    font-family: sf pro;
-    font-size: 21px;
-    font-weight: 400;
-    letter-spacing: 0.336px;
-    max-width: 290px;
-    width: 290px;
-    text-align: center;
-    margin: 9px 0 0 0;
+    font-size: 19px;
+    letter-spacing: 0.228px;
+    margin: 9px 57.667px 0 57.667px;
+  }
+
+  .call-to-action-grid-5 {
+    margin: 13.94px 0 0 0;
   }
 
   .slidessss {
@@ -1643,6 +1711,7 @@ span {
 
   .grid-right-2 {
     background-image: url("./img/promo_iphone13pro_avail__beadms4ldidu_small_2x.jpg");
+    margin: 0 0 11px 0;
   }
 
   .airpods-background {
