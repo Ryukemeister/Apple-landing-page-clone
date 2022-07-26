@@ -1470,41 +1470,107 @@ span {
 
   .section-2-wrapper {
     background-size: 734px 548px;
-    height: 548px;
+    height: 500px;
     width: 100vw;
     border: none;
     background-image: url("./img/hero_macbookair__el7scava26mq_small_2x.png");
     /*border: 1px solid red;*/
   }
 
+  .headline {
+    font-size: 32px;
+    letter-spacing: 0.128px;
+    margin: 6px 0 0 0;
+  }
+
+  .m2-logo-image {
+    background-image: url("./img/logo_hero_macbookair__edl9uovq56wm_small_2x.png");
+    background-size: 178px 29px;
+    height: 29px;
+    margin-top: 2px;
+  }
+
+  .cta-button {
+    height: 10px;
+    margin-left: 3px;
+  }
+
+  .cta-btns {
+    margin-top: 7px;
+  }
+
+  .cta-btns a {
+    font-size: 17px;
+  }
+
+  .learn-more {
+    margin-right: 27px;
+  }
+
   .hero-content {
+    padding: 31px 0 0 0;
     margin-left: 0px;
   }
 
   .section-1-wrapper {
-    background-size: 734px 548px;
-    height: 548px;
-    width: 100vw;
-    border: 1px solid red;
-    border: none;
     background-image: url("./img/hero_iphone13_avail__gnqqkzuai6um_small_2x.jpg");
+    background-size: 734px 548px;
+    height: 500px;
+    width: 100vw;
+    padding-top: 48px;
   }
 
   .title {
+    font-size: 32px;
+    letter-spacing: 0.128px;
     margin: 0;
-    padding-top: 44px;
+    padding-top: 30px;
+  }
+
+  .macbook-13-logo {
+    font-size: 19px;
+    margin: 4px 0 0 0;
+    letter-spacing: 0.128px;
+  }
+
+  .call-to-action-buttons {
+    margin: 11.9px 0 0 0;
+  }
+
+  .call-to-action-buttons a {
+    font-size: 17px;
   }
 
   .unit-link {
     background-size: 734px 548px;
-    height: 548px;
+    height: 500px;
+    width: 100vw;
   }
 
   .section-3-wrapper {
-    background-size: 734px 548px;
-    height: 548px;
-    width: 100vw;
     background-image: url("./img/hero_bts__bcuslanw39xe_small_2x.jpg");
+    background-size: 734px 548px;
+    height: 500px;
+    width: 100vw;
+    margin: 11px 0 0 0;
+  }
+
+  .section-3-content {
+    padding: 37px 0 0 0;
+  }
+
+  .section-3-title {
+    font-size: 32px;
+    letter-spacing: 0.128px;
+  }
+
+  .section-3-subtitle {
+    margin: 4px 0 0 0;
+    font-size: 19px;
+  }
+
+  .call-to-action-section-3 {
+    margin: 11.9px 0 0 0;
   }
 
   .section-4-content {
@@ -1526,7 +1592,7 @@ span {
         border: 1px solid red;
     */
     width: 100vw;
-    height: 548px;
+    height: 500px;
   }
 
   .section-5-content {
@@ -1584,7 +1650,7 @@ span {
     background-size: 258px 333px;
     height: 333px;
     margin: 0;
-    margin-top: 43px;
+    margin-top: -5px;
   }
 
   .footer-navigation {
