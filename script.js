@@ -12,7 +12,8 @@ const startSliderAnimation = function (entry) {
   if (entry[0].isIntersecting) {
     setInterval(switchSlides, 4000);
     setInterval(slides, 4000);
-    observer.unobserve(entry);
+    // alert("Intersecting on!");
+    observer.unobserve(sectionFive);
   }
 };
 
@@ -53,22 +54,26 @@ const slides = function () {
     const [CSSTranslate] = transformation;
     const { value } = CSSTranslate.x;
 
-    if (value === 101) {
+    if (value === 102) {
       const node = slide.children[0];
-      slide.style.transform = `translateX(${value - 101}%)`;
+      slide.style.transform = `translateX(${value - 102}%)`;
       slide.style.filter = "opacity(1)";
       node.style.display = "flex";
       node.style.margin = "0 0 35px 68px";
       node.style.filter = "opacity(1)";
-      node.style.transition = "all 1.2s";
-      slide.style.transition = "all 1.5s";
+      node.style.transition = "all 1s";
+      // node.style.transition = "all 1.2s";
+      // slide.style.transition = "all 1.5s";
+      slide.style.transition = "all 1.2s";
     } else {
       const node = slide.children[0];
-      slide.style.transform = `translateX(${value - 101}%)`;
+      slide.style.transform = `translateX(${value - 102}%)`;
       slide.style.filter = "opacity(0.3)";
       node.style.filter = "opacity(0)";
-      node.style.transition = "all 1.2s";
-      slide.style.transition = "all 1.5s";
+      node.style.transition = "all 1s";
+      //  node.style.transition = "all 1.2s";
+      // slide.style.transition = "all 1.5s";
+      slide.style.transition = "all 1.2s";
     }
   });
 };
