@@ -568,26 +568,40 @@ span {
   margin-left: 166px;
 }
 
+.right-grid-3-content {
+  display: flex;
+  flex-direction: column;
+  height: 622px;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.bottom-tile {
+  padding: 0 0 40px 0;
+}
+
 .grid-6-heading {
-  color: rgb(245, 245, 247);
-  font-size: 40px;
-  text-align: center;
-  font-family: sf pro;
-  font-weight: 600;
-  margin-top: 60px;
-  margin-bottom: 0;
-  -webkit-font-smoothing: antialiased;
+  background-image: url("/svg/promo_logo_aml__eev5f1svfugm_large.svg");
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 603px;
+  height: 104px;
+  margin: 20px 0 0 0;
 }
 
 .grid-6-subheading {
   color: rgb(245, 245, 247);
   font-size: 21px;
+  max-width: 352px;
   font-family: sf pro;
   font-weight: 400;
   margin-top: 4px;
   margin-bottom: 0;
   letter-spacing: 0.336px;
   text-align: center;
+  margin-left: 20%;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -599,7 +613,7 @@ span {
 
 .call-to-action-grid-6 a {
   text-decoration: none;
-  color: rgb(0, 102, 204);
+  color: rgb(255, 255, 255);
   cursor: pointer;
   font-size: 18px;
   font-weight: 400;
@@ -1684,8 +1698,41 @@ span {
     margin: 13.94px 0 0 0;
   }
 
-  .airpods-background {
-    display: none;
+  .right-grid-3-content {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    align-content: center;
+    justify-content: space-between;
+  }
+
+  .bottom-tile {
+    padding: 0 0 40px 0;
+  }
+
+  .grid-6-heading {
+    background-image: url("./svg/promo_logo_aml__eev5f1svfugm_small.svg");
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 375px;
+    height: 81px;
+    margin: 17px 0 0 0;
+  }
+
+  .grid-6-subheading {
+    font-size: 19px;
+    margin: 4px 0 0 0;
+    letter-spacing: 0.228px;
+  }
+
+  .call-to-action-grid-6 {
+    margin: 16px 0 0 0;
+  }
+
+  .call-to-action-grid-6 a {
+    color: rgb(255, 255, 255);
   }
 
   .grid-right-3 {
