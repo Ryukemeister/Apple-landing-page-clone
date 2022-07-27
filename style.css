@@ -1716,7 +1716,7 @@ span {
     background-position-y: 50%;
     background-position: center;
     background-repeat: no-repeat;
-    width: 375px;
+    width: 100vw;
     height: 81px;
     margin: 17px 0 0 0;
   }
