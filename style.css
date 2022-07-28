@@ -2057,18 +2057,6 @@ span {
     padding: 0;
   }
 
-  /*
-  .directory-column {
-    border-bottom-color: rgb(210, 210, 215);
-    border-bottom-style: solid;
-    border-bottom-width: 1.1px;
-    margin: 0 0 8px 0;
-    width: 91vw;
-    -webkit-font-smoothing: antialiased;
-    border: 2px solid red;
-  }
-  */
-
   .section-list {
     border-bottom-color: rgb(210, 210, 215);
     border-bottom-style: solid;
@@ -2085,7 +2073,6 @@ span {
   .content-list-title {
     color: rgb(110, 110, 115);
     filter: contrast(4.65);
-    filter: opacity(0.95);
     font-weight: 400;
   }
 
@@ -2103,5 +2090,13 @@ span {
 
   .lists a {
     display: none;
+  }
+
+  .show-lists {
+    display: block;
+    transition-delay: 0s, 0s;
+    transition-duration: 0.3s, 0.3s;
+    transition-property: transform,
+      -webkit-transform transition-timing-function ease, ease;
   }
 }
