@@ -411,7 +411,7 @@ span {
 
 .grid-link-right {
   height: 620px;
-  width: 602px;
+  width: 604px;
   position: absolute;
   z-index: 3;
   font-family: sf pro;
@@ -632,9 +632,11 @@ span {
   overflow: hidden;
   justify-content: center;
   align-items: center;
-  width: 1280px;
   height: 520px;
-  /* height: 561.125px;
+  width: 98vw;
+  /*
+    width: 1280px;
+  height: 561.125px;
   border: 2px solid red;
   */
   margin-top: 0px;
@@ -654,7 +656,7 @@ span {
 }
 
 .slide-minus-three-3 {
-  background-image: url("./img/Morning\ show.jpg");
+  background-image: url("./img/Black\ bird.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(-306%);
@@ -662,7 +664,7 @@ span {
 }
 
 .slide-minus-two-3 {
-  background-image: url("./img/Physical.jpg");
+  background-image: url("./img/Morning\ show.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(-204%);
@@ -670,7 +672,7 @@ span {
 }
 
 .slide-1-3 {
-  background-image: url("./img/Snoopy\ show.jpg");
+  background-image: url("./img/See\ updated.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(-102%);
@@ -678,14 +680,14 @@ span {
 }
 
 .slide-2-3 {
-  background-image: url("./img/For\ all\ mankind.jpg");
+  background-image: url("./img/Trying.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(0%);
 }
 
 .slide-3-3 {
-  background-image: url("./img/Loot.jpg");
+  background-image: url("./img/Best\ foot\ forward.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(102%);
@@ -693,7 +695,7 @@ span {
 }
 
 .slide-4-3 {
-  background-image: url("./img/Prehistoric\ planet.jpg");
+  background-image: url("./img/Ted\ Lasso.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(204%);
@@ -701,7 +703,7 @@ span {
 }
 
 .slide-5-3 {
-  background-image: url("./img/Ted\ Lasso.jpg");
+  background-image: url("./img/Loot.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(306%);
@@ -717,7 +719,7 @@ span {
 }
 
 .slide-7-3 {
-  background-image: url("./img/Severance.jpg");
+  background-image: url("./img/Prehistoric\ planet.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(510%);
@@ -725,7 +727,7 @@ span {
 }
 
 .slide-8-3 {
-  background-image: url("./img/Chacha.jpg");
+  background-image: url("./img/Severance.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(612%);
@@ -733,7 +735,7 @@ span {
 }
 
 .slide-9-3 {
-  background-image: url("./img/See\ -\ The\ final\ chapter.jpg");
+  background-image: url("./img/For\ all\ mankind.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(714%);
@@ -741,7 +743,7 @@ span {
 }
 
 .slide-10-3 {
-  background-image: url("./img/Morning\ show.jpg");
+  background-image: url("./img/Black\ bird.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(816%);
@@ -749,7 +751,7 @@ span {
 }
 
 .slide-11-3 {
-  background-image: url("./img/Physical.jpg");
+  background-image: url("./img/Morning\ show.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(918%);
@@ -757,7 +759,7 @@ span {
 }
 
 .slide-12-3 {
-  background-image: url("./img/Snoopy\ show.jpg");
+  background-image: url("./img/See\ updated.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(1020%);
@@ -765,7 +767,7 @@ span {
 }
 
 .slide-13-3 {
-  background-image: url("./img/For\ all\ mankind.jpg");
+  background-image: url("./img/Trying.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(1122%);
@@ -773,14 +775,14 @@ span {
 }
 
 .slide-14-3 {
-  background-image: url("./img/Loot.jpg");
+  background-image: url("./img/Best\ foot\ forward.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(1224%);
 }
 
 .slide-15-3 {
-  background-image: url("./img/Prehistoric\ planet.jpg");
+  background-image: url("./img/Ted\ Lasso.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(1326%);
@@ -788,7 +790,7 @@ span {
 }
 
 .slide-16-3 {
-  background-image: url("./img/Ted\ Lasso.jpg");
+  background-image: url("./img/Loot.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(1428%);
@@ -804,7 +806,7 @@ span {
 }
 
 .slide-18-3 {
-  background-image: url("./img/Severance.jpg");
+  background-image: url("./img/Prehistoric\ planet.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(1632%);
@@ -812,7 +814,7 @@ span {
 }
 
 .slide-19-3 {
-  background-image: url("./img/Chacha.jpg");
+  background-image: url("./img/Severance.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(1734%);
@@ -820,7 +822,7 @@ span {
 }
 
 .slide-20-3 {
-  background-image: url("./img/See\ -\ The\ final\ chapter.jpg");
+  background-image: url("./img/For\ all\ mankind.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(1836%);
@@ -828,7 +830,7 @@ span {
 }
 
 .slide-21-3 {
-  background-image: url("./img/Morning\ show.jpg");
+  background-image: url("./img/Black\ bird.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(1938%);
@@ -836,7 +838,7 @@ span {
 }
 
 .slide-22-3 {
-  background-image: url("./img/Physical.jpg");
+  background-image: url("./img/Morning\ show.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(2040%);
@@ -844,7 +846,7 @@ span {
 }
 
 .slide-23-3 {
-  background-image: url("./img/Snoopy\ show.jpg");
+  background-image: url("./img/See\ updated.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(2142%);
@@ -852,7 +854,7 @@ span {
 }
 
 .slide-24-3 {
-  background-image: url("./img/For\ all\ mankind.jpg");
+  background-image: url("./img/Trying.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(2244%);
@@ -860,7 +862,7 @@ span {
 }
 
 .slide-25-3 {
-  background-image: url("./img/Loot.jpg");
+  background-image: url("./img/Best\ foot\ forward.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(2346%);
@@ -868,7 +870,7 @@ span {
 }
 
 .slide-26-3 {
-  background-image: url("./img/Prehistoric\ planet.jpg");
+  background-image: url("./img/Ted\ Lasso.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(2448%);
@@ -876,7 +878,7 @@ span {
 }
 
 .slide-27-3 {
-  background-image: url("./img/Ted\ Lasso.jpg");
+  background-image: url("./img/Loot.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(2550%);
@@ -892,7 +894,7 @@ span {
 }
 
 .slide-29-3 {
-  background-image: url("./img/Severance.jpg");
+  background-image: url("./img/Prehistoric\ planet.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(2754%);
@@ -900,7 +902,7 @@ span {
 }
 
 .slide-30-3 {
-  background-image: url("./img/Chacha.jpg");
+  background-image: url("./img/Severance.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(2856%);
@@ -908,7 +910,7 @@ span {
 }
 
 .slide-31-3 {
-  background-image: url("./img/See\ -\ The\ final\ chapter.jpg");
+  background-image: url("./img/For\ all\ mankind.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(2958%);
@@ -916,7 +918,7 @@ span {
 }
 
 .slide-32-3 {
-  background-image: url("./img/Morning\ show.jpg");
+  background-image: url("./img/Black\ bird.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(3060%);
@@ -924,7 +926,7 @@ span {
 }
 
 .slide-33-3 {
-  background-image: url("./img/Physical.jpg");
+  background-image: url("./img/Morning\ show.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(3162%);
@@ -932,7 +934,7 @@ span {
 }
 
 .slide-34-3 {
-  background-image: url("./img/Snoopy\ show.jpg");
+  background-image: url("./img/See\ updated.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(3264%);
@@ -940,7 +942,7 @@ span {
 }
 
 .slide-35-3 {
-  background-image: url("./img/For\ all\ mankind.jpg");
+  background-image: url("./img/Trying.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(3366%);
@@ -948,7 +950,7 @@ span {
 }
 
 .slide-36-3 {
-  background-image: url("./img/Loot.jpg");
+  background-image: url("./img/Best\ foot\ forward.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(3468%);
@@ -956,7 +958,7 @@ span {
 }
 
 .slide-37-3 {
-  background-image: url("./img/Prehistoric\ planet.jpg");
+  background-image: url("./img/Ted\ Lasso.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(3570%);
@@ -964,7 +966,7 @@ span {
 }
 
 .slide-38-3 {
-  background-image: url("./img/Ted\ Lasso.jpg");
+  background-image: url("./img/Loot.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(3672%);
@@ -980,7 +982,7 @@ span {
 }
 
 .slide-40-3 {
-  background-image: url("./img/Severance.jpg");
+  background-image: url("./img/Prehistoric\ planet.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(3876%);
@@ -988,7 +990,7 @@ span {
 }
 
 .slide-41-3 {
-  background-image: url("./img/Chacha.jpg");
+  background-image: url("./img/Severance.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(3978%);
@@ -996,7 +998,7 @@ span {
 }
 
 .slide-42-3 {
-  background-image: url("./img/See\ -\ The\ final\ chapter.jpg");
+  background-image: url("./img/For\ all\ mankind.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(4080%);
@@ -1004,7 +1006,7 @@ span {
 }
 
 .slide-43-3 {
-  background-image: url("./img/Morning\ show.jpg");
+  background-image: url("./img/Black\ bird.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(4182%);
@@ -1012,7 +1014,7 @@ span {
 }
 
 .slide-44-3 {
-  background-image: url("./img/Physical.jpg");
+  background-image: url("./img/Morning\ show.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(4284%);
@@ -1020,7 +1022,7 @@ span {
 }
 
 .slide-45-3 {
-  background-image: url("./img/Snoopy\ show.jpg");
+  background-image: url("./img/See\ updated.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(4386%);
@@ -1028,7 +1030,7 @@ span {
 }
 
 .slide-46-3 {
-  background-image: url("./img/For\ all\ mankind.jpg");
+  background-image: url("./img/Trying.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(4488%);
@@ -1036,7 +1038,7 @@ span {
 }
 
 .slide-47-3 {
-  background-image: url("./img/Loot.jpg");
+  background-image: url("./img/Best\ foot\ forward.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(4590%);
@@ -1044,7 +1046,7 @@ span {
 }
 
 .slide-48-3 {
-  background-image: url("./img/Prehistoric\ planet.jpg");
+  background-image: url("./img/Ted\ Lasso.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(4692%);
@@ -1052,7 +1054,7 @@ span {
 }
 
 .slide-49-3 {
-  background-image: url("./img/Ted\ Lasso.jpg");
+  background-image: url("./img/Loot.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(4794%);
@@ -1068,7 +1070,7 @@ span {
 }
 
 .slide-51-3 {
-  background-image: url("./img/Severance.jpg");
+  background-image: url("./img/Prehistoric\ planet.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(4998%);
@@ -1076,7 +1078,7 @@ span {
 }
 
 .slide-52-3 {
-  background-image: url("./img/Chacha.jpg");
+  background-image: url("./img/Severance.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(5100%);
@@ -1084,7 +1086,7 @@ span {
 }
 
 .slide-53-3 {
-  background-image: url("./img/See\ -\ The\ final\ chapter.jpg");
+  background-image: url("./img/For\ all\ mankind.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(5202%);
@@ -1092,7 +1094,7 @@ span {
 }
 
 .slide-54-3 {
-  background-image: url("./img/Morning\ show.jpg");
+  background-image: url("./img/Black\ bird.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(5304%);
@@ -1100,7 +1102,7 @@ span {
 }
 
 .slide-55-3 {
-  background-image: url("./img/Physical.jpg");
+  background-image: url("./img/Morning\ show.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(5406%);
@@ -1108,7 +1110,7 @@ span {
 }
 
 .slide-56-3 {
-  background-image: url("./img/Snoopy\ show.jpg");
+  background-image: url("./img/See\ updated.jpg");
   background-position: center;
   background-size: cover;
   transform: translateX(5508%);
@@ -1747,6 +1749,267 @@ span {
     width: 274px;
     height: 495px;
     margin: 0;
+  }
+
+  .first-info-bottom {
+    display: flex;
+    flex-direction: column-reverse;
+    width: auto;
+  }
+
+  .info-bottom {
+    display: flex;
+    flex-direction: column-reverse;
+    width: auto;
+  }
+
+  .m-dot {
+    display: none;
+  }
+
+  .genre {
+    font-size: 15px;
+  }
+
+  .typography-shows-genre {
+    flex-direction: column;
+    margin: 0 0 12px -68px;
+    font-size: 15px;
+    width: 223px;
+    padding: 0 25px;
+    text-align: center;
+  }
+
+  .slide-minus-three-3 {
+    background-image: url("./img/Black\ bird\ mobile.jpg");
+  }
+
+  .slide-minus-two-3 {
+    background-image: url("./img/Morning\ show\ mobile.jpg");
+  }
+
+  .slide-1-3 {
+    background-image: url("./img/See\ mobile.jpg");
+  }
+
+  .slide-2-3 {
+    background-image: url("./img/Trying\ mobile.jpg");
+  }
+
+  .slide-3-3 {
+    background-image: url("./img/Fast\ foot\ mobile.jpg");
+  }
+
+  .slide-4-3 {
+    background-image: url("./img/Ted\ lasso\ mobile.jpg");
+  }
+
+  .slide-5-3 {
+    background-image: url("./img/Loot\ mobile.jpg");
+  }
+
+  .slide-6-3 {
+    background-image: url("./img/Baseball\ mobile.jpg");
+  }
+
+  .slide-7-3 {
+    background-image: url("./img/Prehistoric\ planet\ mobile.jpg");
+  }
+
+  .slide-8-3 {
+    background-image: url("./img/Severance\ mobile.jpg");
+  }
+
+  .slide-9-3 {
+    background-image: url("./img/For\ all\ mankind\ mobile.jpg");
+  }
+
+  .slide-10-3 {
+    background-image: url("./img/Black\ bird\ mobile.jpg");
+  }
+
+  .slide-11-3 {
+    background-image: url("./img/Morning\ show\ mobile.jpg");
+  }
+
+  .slide-12-3 {
+    background-image: url("./img/See\ mobile.jpg");
+  }
+
+  .slide-13-3 {
+    background-image: url("./img/Trying\ mobile.jpg");
+  }
+
+  .slide-14-3 {
+    background-image: url("./img/Fast\ foot\ mobile.jpg");
+  }
+
+  .slide-15-3 {
+    background-image: url("./img/Ted\ lasso\ mobile.jpg");
+  }
+
+  .slide-16-3 {
+    background-image: url("./img/Loot\ mobile.jpg");
+  }
+
+  .slide-17-3 {
+    background-image: url("./img/Baseball\ mobile.jpg");
+  }
+
+  .slide-18-3 {
+    background-image: url("./img/Prehistoric\ planet\ mobile.jpg");
+  }
+
+  .slide-19-3 {
+    background-image: url("./img/Severance\ mobile.jpg");
+  }
+
+  .slide-20-3 {
+    background-image: url("./img/For\ all\ mankind\ mobile.jpg");
+  }
+
+  .slide-21-3 {
+    background-image: url("./img/Black\ bird\ mobile.jpg");
+  }
+
+  .slide-22-3 {
+    background-image: url("./img/Morning\ show\ mobile.jpg");
+  }
+
+  .slide-23-3 {
+    background-image: url("./img/See\ mobile.jpg");
+  }
+
+  .slide-24-3 {
+    background-image: url("./img/Trying\ mobile.jpg");
+  }
+
+  .slide-25-3 {
+    background-image: url("./img/Fast\ foot\ mobile.jpg");
+  }
+
+  .slide-26-3 {
+    background-image: url("./img/Ted\ lasso\ mobile.jpg");
+  }
+
+  .slide-27-3 {
+    background-image: url("./img/Loot\ mobile.jpg");
+  }
+
+  .slide-28-3 {
+    background-image: url("./img/Baseball\ mobile.jpg");
+  }
+
+  .slide-29-3 {
+    background-image: url("./img/Prehistoric\ planet\ mobile.jpg");
+  }
+
+  .slide-30-3 {
+    background-image: url("./img/Severance\ mobile.jpg");
+  }
+
+  .slide-31-3 {
+    background-image: url("./img/For\ all\ mankind\ mobile.jpg");
+  }
+
+  .slide-32-3 {
+    background-image: url("./img/Black\ bird\ mobile.jpg");
+  }
+
+  .slide-33-3 {
+    background-image: url("./img/Morning\ show\ mobile.jpg");
+  }
+
+  .slide-34-3 {
+    background-image: url("./img/See\ mobile.jpg");
+  }
+
+  .slide-35-3 {
+    background-image: url("./img/Trying\ mobile.jpg");
+  }
+
+  .slide-36-3 {
+    background-image: url("./img/Fast\ foot\ mobile.jpg");
+  }
+
+  .slide-37-3 {
+    background-image: url("./img/Ted\ lasso\ mobile.jpg");
+  }
+
+  .slide-38-3 {
+    background-image: url("./img/Loot\ mobile.jpg");
+  }
+
+  .slide-39-3 {
+    background-image: url("./img/Baseball\ mobile.jpg");
+  }
+
+  .slide-40-3 {
+    background-image: url("./img/Prehistoric\ planet\ mobile.jpg");
+  }
+
+  .slide-41-3 {
+    background-image: url("./img/Severance\ mobile.jpg");
+  }
+
+  .slide-42-3 {
+    background-image: url("./img/For\ all\ mankind\ mobile.jpg");
+  }
+
+  .slide-43-3 {
+    background-image: url("./img/Black\ bird\ mobile.jpg");
+  }
+
+  .slide-44-3 {
+    background-image: url("./img/Morning\ show\ mobile.jpg");
+  }
+
+  .slide-45-3 {
+    background-image: url("./img/See\ mobile.jpg");
+  }
+
+  .slide-46-3 {
+    background-image: url("./img/Trying\ mobile.jpg");
+  }
+
+  .slide-47-3 {
+    background-image: url("./img/Fast\ foot\ mobile.jpg");
+  }
+
+  .slide-48-3 {
+    background-image: url("./img/Ted\ lasso\ mobile.jpg");
+  }
+
+  .slide-49-3 {
+    background-image: url("./img/Loot\ mobile.jpg");
+  }
+
+  .slide-50-3 {
+    background-image: url("./img/Baseball\ mobile.jpg");
+  }
+
+  .slide-51-3 {
+    background-image: url("./img/Prehistoric\ planet\ mobile.jpg");
+  }
+
+  .slide-52-3 {
+    background-image: url("./img/Severance\ mobile.jpg");
+  }
+
+  .slide-53-3 {
+    background-image: url("./img/For\ all\ mankind\ mobile.jpg");
+  }
+
+  .slide-54-3 {
+    background-image: url("./img/Black\ bird\ mobile.jpg");
+  }
+
+  .slide-55-3 {
+    background-image: url("./img/Morning\ show\ mobile.jpg");
+  }
+
+  .slide-56-3 {
+    background-image: url("./img/See\ mobile.jpg");
   }
 
   .grid-left-1 {
