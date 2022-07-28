@@ -1364,7 +1364,7 @@ span {
   filter: contrast(5.11);
 }
 
-.copyright-detials {
+.copyright-details {
   display: flex;
 }
 
@@ -2040,15 +2040,68 @@ span {
   }
 
   .united-states {
-    margin: 5px 0px 0px -105px;
-  }
-
-  .goldman-agreement {
-    font-size: 10px;
+    margin: 5px 0px 0px 0px;
   }
 
   .footer-content {
-    margin: 0 48px;
-    padding: 0 12px;
+    margin: 0;
+    padding: 0 16px;
+  }
+
+  .copyright-details {
+    flex-direction: column;
+  }
+
+  .more-navigation {
+    margin: 7px 0 0 0;
+    padding: 0;
+  }
+
+  /*
+  .directory-column {
+    border-bottom-color: rgb(210, 210, 215);
+    border-bottom-style: solid;
+    border-bottom-width: 1.1px;
+    margin: 0 0 8px 0;
+    width: 91vw;
+    -webkit-font-smoothing: antialiased;
+    border: 2px solid red;
+  }
+  */
+
+  .section-list {
+    border-bottom-color: rgb(210, 210, 215);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    margin: 0 0 8px 0;
+    width: 91vw;
+  }
+
+  .nav-last-part {
+    margin: 0;
+    padding: 9px 0 19px 0;
+  }
+
+  .content-list-title {
+    color: rgb(110, 110, 115);
+    filter: contrast(4.65);
+    filter: opacity(0.95);
+    font-weight: 400;
+  }
+
+  .content-list-title::after {
+    box-sizing: content-box;
+    content: "+";
+    float: right;
+    margin: -2px 8px 0 0;
+  }
+
+  .list-two {
+    padding-top: 14.4px;
+    padding: 0;
+  }
+
+  .lists a {
+    display: none;
   }
 }
