@@ -2074,6 +2074,7 @@ span {
     color: rgb(110, 110, 115);
     filter: contrast(4.65);
     font-weight: 400;
+    filter: opacity(0.95);
   }
 
   .content-list-title::after {
@@ -2088,7 +2089,7 @@ span {
     padding: 0;
   }
 
-  .lists a {
+  .lists {
     display: none;
   }
 
