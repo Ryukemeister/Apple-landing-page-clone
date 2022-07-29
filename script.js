@@ -4,6 +4,21 @@ const navItems = document.querySelectorAll(".nav-item");
 const sliderOne = document.querySelector(".nav--1");
 const sectionFive = document.querySelector(".section-5");
 
+const toggleBtns = document.querySelectorAll(".content-list-title");
+
+toggleBtns.forEach((btn) => {
+  btn.addEventListener("click", function (e) {
+    const arr = Array.from(e.target.parentNode.children);
+    // console.log(arr);
+
+    arr.forEach((child) => {
+      if (child.classList.contains("lists")) {
+        child.classList.toggle("show-lists");
+      }
+    });
+  });
+});
+
 const options = {
   threshold: 0,
 };
@@ -12,7 +27,6 @@ const startSliderAnimation = function (entry) {
   if (entry[0].isIntersecting) {
     setInterval(switchSlides, 4000);
     setInterval(slides, 4000);
-    // alert("Intersecting on!");
     observer.unobserve(sectionFive);
   }
 };
