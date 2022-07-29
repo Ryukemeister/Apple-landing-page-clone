@@ -2095,9 +2095,5 @@ span {
 
   .show-lists {
     display: block;
-    transition-delay: 0s, 0s;
-    transition-duration: 0.3s, 0.3s;
-    transition-property: transform,
-      -webkit-transform transition-timing-function ease, ease;
   }
 }
